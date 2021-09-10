@@ -1,4 +1,4 @@
---Change This Value To 'On' Or 'Off'
+x--Change This Value To 'Off' Or 'Off'
 local Value = "Off"
 
 _G.MySetting = false
