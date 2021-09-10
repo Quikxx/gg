@@ -3,7 +3,7 @@ local Value = "On"
 
 _G.MySetting;
 if string.lower(Value) == "on" then
-  _G.MySetting = true
+  _G.MySetting = false
 elseif string.lower(Value) == "off" then
   _G.MySetting = false
 end
