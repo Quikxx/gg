@@ -1,9 +1,9 @@
 --Change This Value To 'On' Or 'Off'
 local Value = "On"
 
-_G.MySetting;
+_G.MySetting = false
 if string.lower(Value) == "on" then
-  _G.MySetting = false
+  _G.MySetting = true
 elseif string.lower(Value) == "off" then
   _G.MySetting = false
 end
