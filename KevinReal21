@@ -1,5 +1,5 @@
 --Change This Value To 'On' Or 'Off'
-local Value = "off"
+local Value = "Off"
 
 _G.MySetting = false
 if string.lower(Value) == "on" then
